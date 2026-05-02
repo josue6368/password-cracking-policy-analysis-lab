@@ -83,7 +83,9 @@ The fake passwords were converted into MD5 hashes using the Linux command line.
 while read password; do echo -n "$password" | md5sum | awk '{print $1}'; done < passwords.txt > hashes_md5.txt
 ```
 <br/>
-<img width="1088" height="803" alt="Screenshot 2026-05-01 215520" src="https://github.com/user-attachments/assets/633c0fed-2b7a-4d64-b5fb-5e27cdfb5222" />
+
+<img width="1086" height="500" alt="Screenshot 2026-05-01 222634" src="https://github.com/user-attachments/assets/7ea0c90b-5c25-4c46-bac0-c952fa3a11f7" />
+
 
 ### Cracking Method
 
